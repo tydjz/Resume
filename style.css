@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h2{
+    font-size: 50px;
+    font-family: "微软雅黑";
+    text-shadow:5px 5px #444,6px 6px #444;
+}
+/*first*/
+section.first{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #24D083;  
+}
+@media(max-width:420px){
+    section.first{
+        height: auto;
+        min-height:100vh;
+        max-width: 100%;
+    }
+}
+section.first h1{
+    font-size: 200px;
+    font-family: "楷体";
+    color: #DBE0DE;
+    transform: rotate(-8deg);
+    text-shadow: 6px 6px 0 #444;
+}
+/*summary*/
+section.summary{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#26B1B6;
+    color: #fff;
+    text-shadow: 2px 3px 5px green;
+}
+@media(max-width:420px){
+    section.summary{
+        height: auto;
+        min-height:100vh;
+    }
+}
+img.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+section.summary  h1{
+    font-size: 40px;
+    font-family: "微软雅黑";  
+}
+ .text{
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    font-family: "微软雅黑";
+}
+/*teacher*/
+section.teacher{
+    height: 100vh;
+    background: #1889C5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 3px 5px green;
+    text-align: center;
+}
+section.teacher h1{
+    font-size: 50px;
+    font-family: "微软雅黑";
+    margin-bottom: 0.5em;
+    text-shadow:5px 5px #444,6px 6px #444;
+}
+/*works*/
+/*section.works{
+    height: 100vh;
+    background: rgb(244, 244,244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:420px){
+    section.works{
+        height: auto;
+        min-height:100vh;
+    }
+}
+section.works img{
+    max-width: 200px;
+}
+section.works .imageWrapper{
+    padding: 10px 10px 3px 10px;
+    background: #fff;
+    text-align: right;
+}
+section.works >ul{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: space-between;
+}
+@media(max-width:420px){
+    section.works{
+        padding: 1em;
+    }
+    section.works >ul{
+        justify-content: center;
+    }
+}
+section.works >ul h3{
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 8px 0;
+}
+section.works>h2 ,section.contacts>h2{
+    font-size:32px;
+    margin-bottom: 1em; 
+}*/
+/*skills*/
+section.skills{
+    height: 100vh;
+    background: #9C58B6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.skills>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li{
+    width: 400px;
+    border: 2px solid #fff;
+    margin: 1em;
+    font-size: 24px;
+      text-align: center;
+}
+.p1{
+    background: #fff;
+    color: #000;
+    height: 40px;
+    line-height: 40px;
+    font-family: "微软雅黑";
+  
+}
+.p2{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    margin: 1em;
+    /*text-indent: 2em;*/
+}
+/*prize*/
+section.prize{
+    height: 100vh;
+    background: #9C58B6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+section.prize .info{
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 2em;
+    line-height: 50px;
+}
+/*myself*/
+section.myself{
+    height: 100vh;
+    background: #26B1B6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+@media(max-width:420px){
+    section.myself{
+        height: auto;
+        min-height:100vh;
+    }
+}
+section.myself .info{
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    margin-top: 2em;
+    text-indent: 2em;
+    max-width: 700px;
+    text-align: left;
+    line-height: 50px;
+}
+
+
